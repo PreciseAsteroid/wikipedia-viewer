@@ -1,0 +1,102 @@
+@import 'https://fonts.googleapis.com/css?family=Roboto:300,400,500';
+
+body {
+  margin: 0 auto;
+  padding: 0;
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  color: #555;
+  /*max-width: 50em;*/
+
+  }
+
+.queryPane{
+  display: block;
+  margin: auto;
+  background-color: #263d36;
+  background-image: url('../public/books.jpg');
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  line-height: 1.2;
+  padding: 10vw 2em;
+  text-align: center;
+  max-width: none;
+}
+
+.queryHeader {
+  display: block;
+  margin: 11px auto auto auto;
+  text-align: center;
+  font-variant: small-caps;
+  font-size: 30px;
+  line-height: 110%;
+  font-family: 'Linux Libertine','Hoefler Text',Georgia,'Times New Roman',Times,serif;
+  font-weight: 400;
+}
+.queryInput{
+  display: block;
+  margin: 11px auto auto auto;
+  text-align: left;
+  height: 34px;
+  width: 483px;
+  line-height: 34px;
+  font-size: 16px;
+  padding-left: 10px;
+}
+.randButton{
+  display: block;
+  margin: 1em auto;
+  /*background-color:rgba(#f5f6e4, 0.26);*/
+  /*background-color: red;*/
+  border: 1px solid #e81c4f;
+  border-radius: 290486px;
+  font-size: 0.6em;
+  letter-spacing: 0.2em;
+  padding: 1em 2em;
+  text-transform: uppercase;
+  text-decoration: none;
+  transition: none 200ms ease-out;
+  transition-property: color, background;
+
+}
+
+
+
+.list{
+  /*margin-top: 20px;
+  margin-left: 10px;*/
+  line-height: 1.5;
+  margin: auto;
+  max-width: 50em;
+  /*padding: 4em 1em;*/
+
+
+}
+.item{
+  /*margin-top: 10px;*/
+}
+
+h3 {
+  margin-top: 0.5em;
+  padding-top: 0.5em;
+  font-weight: normal;
+  /*color: #333;*/
+}
+.item_title{
+  /*background-image: -webkit-linear-gradient(top,#f5f5f5,#f1f1f1);*/
+  /*color: #494646;*/
+}
+
+.item_summary{
+  /*background-image: -webkit-linear-gradient(top,#fcefef,#f6f1f1);*/
+  /*background: #eee;*/
+  color: #555;
+  vertical-align: text-bottom;
+  padding: 0.5em;
+}
+
+a {
+    /*text-decoration: none;*/
+    color: #e81c4f;
+
+}
