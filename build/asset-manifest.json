@@ -1,7 +1,9 @@
 {
   "main.css": "static/css/main.5938269f.css",
   "main.css.map": "static/css/main.5938269f.css.map",
-  "main.js": "static/js/main.95975baf.js",
-  "main.js.map": "static/js/main.95975baf.js.map",
-  "static/media/books.jpg": "static/media/books.9b2541c9.jpg"
+  "main.js": "static/js/main.dd76333c.js",
+  "main.js.map": "static/js/main.dd76333c.js.map",
+  "static/media/books.jpg": "static/media/books.9b2541c9.jpg",
+  "static/media/react.svg": "static/media/react.5d5d9eef.svg",
+  "static/media/reactrouter.svg": "static/media/reactrouter.89e2ad8b.svg"
 }
