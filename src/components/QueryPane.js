@@ -47,9 +47,9 @@ const QueryPane = withRouter(
       return(
         <div className='queryPane'>
           <div className='queryHeader'>Wikipedie Client</div>
-          <form>
+          <div>
               <input type="text" className="queryInput" onKeyUp={this.type} placeholder='search' />
-          </form>
+          </div>
           <button style={linkStyle} onClick={()=>{this.handleRand()}} onMouseEnter={this.toggleHover} onMouseLeave={this.toggleHover} className="randButton">Random wiki</button>
           <div>
             <a href="https://facebook.github.io/react/">
